@@ -18,7 +18,7 @@
                 {
                     "name": "Pause",
                     "type": "Button",
-                    "id": "684d5a95-dbf4-4b80-9918-2fe3f58d82b5",
+                    "id": "9979cea3-389e-45c9-b6c1-395c09804849",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -127,7 +127,7 @@
                 },
                 {
                     "name": "",
-                    "id": "54145ac6-8ebe-488e-860e-56293d72b17a",
+                    "id": "b2667398-4ec6-4ab2-ac77-63be93f6f2f7",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
