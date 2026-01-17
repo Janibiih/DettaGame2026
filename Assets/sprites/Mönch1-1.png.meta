@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7c3d675d426cc55478cca017d0295d54
+guid: 4c12b4615730b6443b2c40bd65dd173e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6785550453869844406
-    second: Titelpic_0
+      213: -4020248319337745048
+    second: "Mo\u0308nch1-1_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Titelpic_0
+      name: "Mo\u0308nch1-1_0"
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 0
-        width: 90
-        height: 60
+        width: 25
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 6, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b71768bf2e1b2e50800000000000000
-      internalID: 6785550453869844406
+      spriteID: 865330924753538c0800000000000000
+      internalID: -4020248319337745048
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bf901c1b929876f4e86192fdcd483f3b
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Titelpic_0: 6785550453869844406
+      "Mo\u0308nch1-1_0": -4020248319337745048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
