@@ -9,6 +9,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public float moveSpeed = 5f;
     public Vector2 moveInput; 
 
+    private Object items; 
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,6 +24,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
+    }
+
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        
     }
 
 
