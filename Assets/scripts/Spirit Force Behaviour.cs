@@ -18,7 +18,7 @@ public class SpiritForceBehaviour : MonoBehaviour
             Destroy(gameObject);
         }
 
-        slider.transform.localScale = new Vector3(currentForce / 10, 1, 1);
+        slider.transform.localPosition = new Vector3((currentForce -100) * 17, slider.transform.localPosition.y, slider.transform.localPosition.z);
         spiritForceCounter.text = Mathf.CeilToInt(currentForce).ToString();
 
     }
