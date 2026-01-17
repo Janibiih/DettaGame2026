@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: "Tiles f\xFCr erstes Level_3"
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 2024745654, guid: 0946c2f0784a93144bda11455d29ec07, type: 3}
+  m_Sprite: {fileID: 4380536043384076770, guid: f1dea088995700f45bcbdd0c680fc786, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
