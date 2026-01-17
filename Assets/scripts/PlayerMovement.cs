@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.Rendering;
-using UnityEngine.InputSystem; 
+using UnityEngine.InputSystem;
+using Unity.Cinemachine;
+
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -11,7 +13,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public int itemCount;
 
     [SerializeField] float rotateSpeed = 10f;
-    [SerializeField] Transform spriteTransform; 
+    [SerializeField] Transform spriteTransform;
+
+
+    [SerializeField] private CinemachineCamera vCam;
+    [SerializeField] private float targetZoomSize;
+    public float zoomSpeed = 2f;
+    private bool shouldZoom = false;
+    
 
 
     void Start()
@@ -33,6 +42,23 @@ public class NewMonoBehaviourScript : MonoBehaviour
             Quaternion targetRot = Quaternion.Euler(0, 0, targetAngle);
             spriteTransform.rotation = Quaternion.Lerp(spriteTransform.rotation, targetRot, rotateSpeed * Time.deltaTime);
         }
+
+        if (shouldZoom)
+        {
+            vCam.Lens.OrthographicSize = Mathf.Lerp(
+                vCam.Lens.OrthographicSize,
+                targetZoomSize,
+                Time.deltaTime * zoomSpeed
+            );
+
+            if (Mathf.Abs(vCam.Lens.OrthographicSize - targetZoomSize) < 0.05f)
+            {
+                vCam.Lens.OrthographicSize = targetZoomSize;
+                shouldZoom = false;
+            }
+        }
+
+
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -47,9 +73,22 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             Destroy(collision.gameObject); 
             itemCount ++;
-            Debug.Log("Items: " + itemCount);
+        }
+
+        if (collision.gameObject.tag == "Zoom")
+        {
+            targetZoomSize = 5f; 
+            shouldZoom = true; 
+        }
+
+        if (collision.gameObject.tag == "Zoom2")
+        {
+            targetZoomSize = 8f;
+            shouldZoom = true;
+
         }
     }
 
+    
 
 }
