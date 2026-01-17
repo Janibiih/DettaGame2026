@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - SpiritForce
+  - Object
+  - Zoom
+  - Zoom2
   layers:
   - Default
   - TransparentFX
