@@ -1,6 +1,6 @@
 using TMPro;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class SpiritForceBehaviour : MonoBehaviour
 {
     [SerializeField] public TMP_Text spiritForceCounter;
@@ -11,11 +11,11 @@ public class SpiritForceBehaviour : MonoBehaviour
         currentForce -= Time.deltaTime;
         if (currentForce <= 90)
         {
-            Destroy(gameObject);
+           SceneManager.LoadScene(3);
         }
         if (currentForce > 110 )
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene(3);
         }
 
         slider.transform.localPosition = new Vector3((currentForce -100) * 17, slider.transform.localPosition.y, slider.transform.localPosition.z);
