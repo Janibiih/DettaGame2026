@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 81de4cdb23ad05d40a9d05bc2e2cc821
+guid: 2b6daf1da68ff5a498e49712dcebdaff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3211310289459936083
-    second: "Mo\u0308nch1-2_0"
+      213: 4043740400860941520
+    second: "Mo\u0308nch1-1 1_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Mo\u0308nch1-2_0"
+      name: "Mo\u0308nch1-1 1_0"
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 0
-        width: 32
+        width: 23
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35bf0daa1bdd09c20800000000000000
-      internalID: 3211310289459936083
+      spriteID: 0dc463d48704e1830800000000000000
+      internalID: 4043740400860941520
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Mo\u0308nch1-2_0": 3211310289459936083
+      "Mo\u0308nch1-1 1_0": 4043740400860941520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
