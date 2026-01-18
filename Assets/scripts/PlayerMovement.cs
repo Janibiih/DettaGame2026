@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float targetZoomSize;
     public float zoomSpeed = 2f;
     private bool shouldZoom = false;
+    private bool zoomed; 
     
 
 
@@ -27,7 +28,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        itemCount = 0; 
+        itemCount = 0;
+        zoomed = false; 
     }
 
     private void Update()
@@ -75,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
             itemCount ++;
         }
 
-        if (collision.gameObject.tag == "Zoom")
+        if (collision.gameObject.tag == "Zoom" && zoomed == false)
         {
             targetZoomSize = 5f; 
             shouldZoom = true; 
@@ -85,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         {
             targetZoomSize = 8f;
             shouldZoom = true;
+            zoomed = true; 
 
         }
     }
