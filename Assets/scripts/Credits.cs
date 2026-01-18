@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 public class Endscreen : MonoBehaviour
 {
     [SerializeField] private GameObject names;
-    [SerializeField] private float scrollSpeed = 1f;
+    [SerializeField] private float scrollSpeed = 3f;
 
     [SerializeField] private GameObject thanks;
     [SerializeField] private GameObject gameTitle;

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 68ae103392a725c4bba337c5c70fe96f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicSource: {instanceID: 0}
+  - SnowStage1: {fileID: 8300000, guid: ea19a6a9dfc1cd1498d069352696dd54, type: 3}
+  - SnowStage2: {fileID: 8300000, guid: 7d4b8f685c7dd8149993829b158ee268, type: 3}
+  - SnowStage3: {fileID: 8300000, guid: 11a9fda5a180c674bac3c3fcfae73e29, type: 3}
+  - MountainStage1: {fileID: 8300000, guid: 8010b49e43fff784abf1878a43861ecf, type: 3}
+  - MountainStage2: {fileID: 8300000, guid: 3cbd143d0d7c61e49becb6cb58349da9, type: 3}
+  - MountainStage3: {fileID: 8300000, guid: 1dfbb486ff5de7a47b592e66d908b1f5, type: 3}
+  - ForrestStage1: {fileID: 8300000, guid: cba8fcd76bfbcd54ca2e67faa614800b, type: 3}
+  - ForrestStage2: {fileID: 8300000, guid: 9022660ec9be48744b102495dabc144b, type: 3}
+  - ForrestStage3: {fileID: 8300000, guid: d342d29da04565040a9e95357d15c08b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

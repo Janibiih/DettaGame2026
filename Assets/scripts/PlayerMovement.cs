@@ -19,8 +19,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private CinemachineCamera vCam;
     [SerializeField] private float targetZoomSize;
     public float zoomSpeed = 2f;
-    private bool shouldZoom = false;
-    private bool zoomed; 
+    public bool shouldZoom = false;
+    public bool zoomed; 
     
 
 

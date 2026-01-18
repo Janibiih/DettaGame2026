@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class ToCredits : MonoBehaviour
 {
-    public float countdownTime = 7f; // Zeit in Sekunden
+    public float countdownTime = 9f; // Zeit in Sekunden
     public Text countdownText;       // UI-Text für Anzeige
     public string nextSceneName = "Credits"; // Name der Zielszene
 
